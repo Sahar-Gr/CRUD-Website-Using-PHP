@@ -1,0 +1,93 @@
+.full-page
+
+{
+
+    height: 100vh;
+
+    width: 100%;
+
+    background-image: url("medical-desk-arrangement-blue-cement-background.jpg");
+    background-position: center;
+
+    background-size: cover;
+
+    position: absolute;
+
+}
+ body h1{
+    font-size: 60px; /* Set the font size */
+  line-height: 1.5; /* Set the line height */
+  margin: 270px 100px; /* Set the margin */
+  text-align: justify; /* Set the text alignment */
+  color: #242323; /* Set the text color */
+  font-family:'Times New Roman', Times, serif;
+}
+
+nav
+
+{
+
+    flex: 1;
+
+    position: fixed;
+
+    right: 0;
+    top: 20px;
+
+}
+
+nav ul 
+
+{
+
+    display: inline-block;
+
+    list-style: none;
+
+}
+
+nav ul li
+
+{
+
+    display: inline-block;
+
+    margin-right: 90px;
+
+    margin-top: 17px;
+
+}
+
+nav ul li a
+
+{
+
+    text-decoration: none;
+
+    font-size: 40px;
+
+    color: rgb(9, 56, 93);
+
+    font-family: sans-serif;
+
+}
+
+nav ul li a:hover
+
+{
+
+    color: rgb(255, 0, 174);
+
+}
+
+
+#logoImg {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    z-index: 1000;
+    position: relative;
+}
+
+
+

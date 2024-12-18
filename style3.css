@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*
+
+{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+
+}
+
+.full-page
+
+{
+
+   height: 100vh;
+
+    width: 100%;
+
+    background-image: url("pexels-artem-podrez-5878523.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.sub-page
+
+{
+
+   width: 1266px;
+
+    height: 559px;
+
+    position: absolute;
+
+
+    background-size: cover;
+
+    background-position: center;
+
+    left: 50px;
+
+    top: 50px;
+
+}
+
+.navigation-bar
+
+{
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 20px;
+
+    padding-left: 80px;
+
+    padding-right: 30px;
+
+    padding-top: 50px;
+
+}
+
+#logoImg {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    z-index: 1000;
+    position: relative;
+}
+.logo p{
+    color: rgb(255, 0, 166);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px 0;
+
+}
+.logo p button{
+    display: inline-block;
+    background-color: #a91d40c5; /* Set the background color */  
+    color: #fff; /* Set the text color */
+    text-decoration: none; /* Remove underline */
+    padding: 15px 40px; /* Set the padding */
+  border-radius: 5px; /* Set the border radius */
+  border: none; /* Remove the border */
+  position:relative;
+  
+top: 125px; /* move the button 20px down from its original position */
+  
+ 
+left: 1000px;
+
+  
+ 
+font-size: 16px; /* Set the font size */
+  
+ 
+font-weight: bold; /* Set the font weight */
+position: fixed;
+}
+nav
+
+{
+
+    flex: 1;
+
+    position: fixed;
+
+    right: 0;
+    top: 20px;
+
+}
+
+nav ul 
+
+{
+
+    display: inline-block;
+
+    list-style: none;
+
+}
+
+nav ul li
+
+{
+
+    display: inline-block;
+
+    margin-right: 90px;
+
+    margin-top: 17px;
+
+}
+
+nav ul li a
+
+{
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    color: rgba(20, 33, 213, 0.732);
+
+    font-family: sans-serif;
+
+}
+
+nav ul li a:hover
+
+{
+
+    color: rgb(255, 0, 174);
+
+}
+
+
+
+
+  
+  @media screen and (max-width: 920px) {
+    form .corps-formulaire .droite {
+      margin-left: 0px;
+    }
+  }
+  
+
+
+  /*table css*/
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white
+}
+table{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+table,tr,td,th{
+    border: 1.5px solid rgba(52, 62, 204, 0.53);
+    border-collapse: collapse;
+}
+th{
+    width: 500px;
+    height: 30px;
+    background: rgba(226, 217, 217, 0.223);
+    color: rgb(184, 94, 164);
+    font-family:'Times New Roman', Times, serif;
+}
+td{
+    text-align: center;
+    background:rgba(255, 253, 253, 0.278);;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+@media (max-width: 768px) {
+    .full-page {
+      background-image: url("pexels-artem-podrez-5878523.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
